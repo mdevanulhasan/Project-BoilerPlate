@@ -1,8 +1,11 @@
 // Please flow this steps
 // 1. project folder mouse right button click and select git bash here
-// 2. in the git command prompt write=> code .
-// 3. npm install (for node_modules folder)
-// 4. npm start (for css, js, fonts folder)
+// 2. in the git bash write=> code . (for open this project in vscode editor)
+// 3. npm init
+// 4. npm install bootstrap@4.5.2 jquery@3.5.1 popper.js font-awesome html5shiv --save
+// 5. npm install gulp browser-sync gulp-sass --save-dev
+// 6. npm install (for node_modules folder)
+// 7. npm start (for css, js, fonts folder)
 
 const gulp = require('gulp');
 const browserSync = require('browser-sync').create();
@@ -29,7 +32,7 @@ gulp.task('watch', function(){
 
 // Move JS Files to SRC
 gulp.task('js', function(){
-  return gulp.src(['node_modules/bootstrap/dist/js/bootstrap.min.js', 'node_modules/jquery/dist/jquery.min.js', 'node_modules/popper.js/dist/popper.min.js'])
+  return gulp.src(['node_modules/bootstrap/dist/js/bootstrap.min.js', 'node_modules/jquery/dist/jquery.min.js', 'node_modules/popper.js/dist/popper.min.js', 'node_modules/html5shiv/dist/html5shiv.min.js'])
     .pipe(gulp.dest("src/js"))
     .pipe(browserSync.stream());
 });

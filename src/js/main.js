@@ -20,4 +20,8 @@
     }
   }
 }());
+
 // Our Custom Javascript or jQuery Codes is given below.
+(function ($) {
+	
+})(jQuery);

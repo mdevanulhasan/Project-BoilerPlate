@@ -23,7 +23,7 @@
 ```
 ### :telephone_receiver: Support or Contact :
 
-Having trouble with Project-BoilerPlate ? Check out our [documentation](https://mdevanulhasan.blogspot.com) or :email: [contact support](mailto:mdevanulhasan@gmail.com) and we’ll help you sort it out.
+Having trouble with Project-BoilerPlate ? Check out our :scroll: [documentation](https://mdevanulhasan.blogspot.com) or :email: [contact support](mailto:mdevanulhasan@gmail.com) and we’ll help you sort it out.
 
 ### :sunglasses: Conclusion :
 

@@ -16,8 +16,11 @@
 
 ```markdown
 
+- For using our Project BoilerPlate, we will download or clone our Project-BolerPlate repo in our new project folder.
 - If you have git in you OS (windows / mac / linux ) just open you terminal(mac/linux) or cmd(windows) and type
  `git clone https://github.com/mdevanulhasan/Project-BoilerPlate.git`
+- Step-1=> our first command, npm install (for node_modules).
+- Step-2=> then, npm start (for create css and js files in css and js folder, read all scss files and browser sync).
 - Or, you can directily download it and start coding :)
 
 ```
